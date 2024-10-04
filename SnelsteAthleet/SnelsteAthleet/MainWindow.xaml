@@ -1,0 +1,21 @@
+﻿<Window x:Class="SnelsteAthleet.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SnelsteAthleet"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Naam atleet:" HorizontalAlignment="Left" Margin="68,129,0,0" VerticalAlignment="Top"/>
+        <Label Content="Totaal aantal seconden:" HorizontalAlignment="Left" Margin="68,191,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="inputNameTextBox" HorizontalAlignment="Left" Margin="232,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="timeTextBox" HorizontalAlignment="Left" Margin="232,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="newButton" Content="Nieuw" HorizontalAlignment="Left" Margin="465,124,0,0" VerticalAlignment="Top" Height="35" Width="138" Click="newButton_Click"/>
+        <Button x:Name="fastestAtleetButton" Content="Snelsete atleet" HorizontalAlignment="Left" Margin="465,0,0,0" VerticalAlignment="Center" Height="35" Width="138" Click="fastestAtleetButton_Click"/>
+        <Button x:Name="clearButton" Content="Wissen" HorizontalAlignment="Left" Margin="465,274,0,0" VerticalAlignment="Top" Height="35" Width="138" Click="clearButton_Click"/>
+        <Button x:Name="closeButton" Content="Afsluiten" HorizontalAlignment="Left" Margin="465,357,0,0" VerticalAlignment="Top" Height="35" Width="139" Click="closeButton_Click"/>
+        <TextBox x:Name="resultTextBox" HorizontalAlignment="Left" Margin="68,240,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="365" Height="152" Background="#FFC1C1C1"/>
+
+    </Grid>
+</Window>
